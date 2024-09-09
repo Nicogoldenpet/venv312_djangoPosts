@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Posts</title>
+    </head>
+    <body>
+        <h1>Propositos de ADSO</h1>
+        {% for post in post_list %} <!--Recorremos los Posts-->
+            <li>{{ post.message }}</li>
+        {% endfor %}
+    </body>
+</html>
